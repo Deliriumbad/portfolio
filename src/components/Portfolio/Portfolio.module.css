@@ -1,0 +1,22 @@
+.portfolioBlock {
+    background-color: lightslategrey;
+    height: auto;
+}
+
+.portfolioContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.portfolioContainer h2 {
+    background-color: maroon;
+}
+
+.portfolio {
+    border: solid 1px;
+    background-color: #a4a47a;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
