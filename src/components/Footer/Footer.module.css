@@ -1,0 +1,29 @@
+.footerBlock {
+    height: 80px;
+    background-color: lightslategrey;
+}
+
+.footerContainer {
+    flex-direction: column;
+}
+
+.footerContainer h4 {
+    background-color: maroon;
+}
+
+.items {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    background-color: #a66b9b;
+    border: 1px solid;
+}
+
+
+
