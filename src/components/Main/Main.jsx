@@ -12,7 +12,7 @@ export const Main = () => {
                     <p>A frontend developer</p>
                 </div>
                 <div className={s.mainBlockPhoto}>
-
+photo
                 </div>
             </div>
         </div>

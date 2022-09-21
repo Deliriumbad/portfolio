@@ -7,7 +7,9 @@ export const Portfolio = () => {
     return (
         <div className={s.portfolioBlock}>
             <div className={`${sContainer.container} ${s.portfolioContainer}`}>
-                <h2>Portfolio</h2>
+                <div className={s.title}>
+                    <h2>Portfolio</h2>
+                </div>
                 <div className={s.portfolio}>
                     <Project title={'Social network'}
                              description={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.'}/>

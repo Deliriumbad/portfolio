@@ -1,12 +1,10 @@
 .skillsBlock {
     height: auto;
-
 }
 
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #7a7575;
 }
 
 .skillsContainer h2 {
@@ -15,7 +13,6 @@
 
 .skills {
     border: solid 1px;
-    background-color: #a4a47a;
     width: 100%;
     display: flex;
     justify-content: space-evenly;

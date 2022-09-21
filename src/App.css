@@ -10,14 +10,10 @@
     text-decoration: none;
 }
 
-html {
-    scroll-behavior: smooth;
-    background-color: black;
-
-
-}
-
 body {
-
+    scroll-behavior: smooth;
+    background-color: #1f1f20;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
 }
 

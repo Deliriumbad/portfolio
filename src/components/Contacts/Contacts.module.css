@@ -5,7 +5,6 @@
 .contactContainer {
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #aba3a3;
 }
 
 .contactContainer h2 {
@@ -47,4 +46,16 @@
     transition: .5s;
     cursor: pointer;
     border: 1px solid #8a2be2;
+}
+
+@media all and (max-width: 770px) {
+    .form {
+        width: 305px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .form {
+        width: 100%;
+    }
 }
