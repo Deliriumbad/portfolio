@@ -1,11 +1,13 @@
 .portfolioBlock {
-    background-color: lightslategrey;
+
     height: auto;
 }
 
 .portfolioContainer {
     flex-direction: column;
     justify-content: flex-start;
+    background-color: lightslategrey;
+    flex-wrap: nowrap;
 }
 
 .portfolioContainer h2 {
