@@ -1,0 +1,33 @@
+.mainBlock {
+  height: 100vh;
+  background-color: #343a40;
+
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media all and (max-width: 770px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .mainBlockText {
+      width: 280px;
+      background-color: grey;
+      font-family: 'Work Sans', sans-serif;
+      @media all and (max-width: 770px) {
+        text-align: center;
+      }
+
+      .mainBlockText span, .mainBlockText p {
+        text-transform: uppercase;
+      }
+    }
+
+    .mainBlockPhoto {
+      width: 280px;
+      height: 400px;
+      background-color: maroon;
+    }
+  }
+}

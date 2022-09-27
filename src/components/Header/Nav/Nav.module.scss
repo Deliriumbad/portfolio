@@ -1,0 +1,15 @@
+.nav {
+  border: 1px solid;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  @media all and (max-width: 770px) {
+    margin: 0;
+  }
+  & a {
+        color: white;
+    }
+}
+
+

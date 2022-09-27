@@ -1,0 +1,12 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #1f1f20;
+  @media all and (max-width: 770px) {
+    justify-content: center;
+  }
+}

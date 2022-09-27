@@ -1,0 +1,52 @@
+.project {
+  width: 500px;
+  background-color: #252527;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .icon {
+    width: 100%;
+    height: 300px;
+    background-color: darkblue;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+
+    &:hover {
+      opacity: 0.3;
+      transition: opacity 0.5s;
+    }
+
+    .link {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .projectTitle {
+    margin: 5px 0;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0 10px 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
