@@ -1,4 +1,6 @@
+@import "common/styles/sass/variables.scss";
 /* Reset CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +14,8 @@
 
 body {
     scroll-behavior: smooth;
-    background-color: #1f1f20;
+    background-color: $bgColor;
     font-family: 'Roboto Mono', monospace;
-    color: white;
+    color: $textColor;
 }
 

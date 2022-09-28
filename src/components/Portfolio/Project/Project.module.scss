@@ -1,6 +1,8 @@
+@import "src/common/styles/sass/variables";
+
 .project {
   width: 500px;
-  background-color: #252527;
+  background-color: $bgSecondColor;
   display: flex;
   flex-direction: column;
   align-items: center;

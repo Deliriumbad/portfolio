@@ -1,11 +1,12 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
 .header {
+  @include flex(flex, flex-end, center);
   position: sticky;
   top: 0;
   height: 80px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: #1f1f20;
+  background-color: $bgSecondColor;
   @media all and (max-width: 770px) {
     justify-content: center;
   }

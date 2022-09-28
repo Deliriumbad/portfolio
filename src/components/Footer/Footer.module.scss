@@ -1,16 +1,17 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
 .footerBlock {
   height: auto;
-  background-color: #343a40;
+  background-color: $bgColor;
 
   .footerContainer {
     flex-direction: column;
     justify-content: flex-start;
 
     .items {
+      @include flex(flex, space-between, center);
       width: 270px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
       border: 1px solid;
       margin-bottom: 30px;
 
