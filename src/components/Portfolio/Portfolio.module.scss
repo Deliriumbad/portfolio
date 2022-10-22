@@ -2,15 +2,18 @@
 
 .portfolioBlock {
   height: auto;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./../../assets/image/mainBackground.png");
 
   .portfolioContainer {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    padding-bottom: 30px;
 
     .portfolio {
       @include flex(flex, space-between, flex-start);
-      border: solid 1px;
       width: 100%;
       flex-wrap: wrap;
       @media all and (max-width: 1254px) {

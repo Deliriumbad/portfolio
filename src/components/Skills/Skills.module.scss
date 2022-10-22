@@ -2,14 +2,16 @@
 
 .skillsBlock {
   height: auto;
-  background-color: $bgSecondColor;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./../../assets/image/skill.png");
 
   .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    padding-bottom: 30px;
 
     .skills {
-      border: solid 1px;
       width: 100%;
       display: flex;
       justify-content: space-evenly;

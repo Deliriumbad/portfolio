@@ -3,10 +3,12 @@
 
 .header {
   @include flex(flex, flex-end, center);
+  background-position: center;
+  background-size: cover;
   position: sticky;
   top: 0;
   height: 80px;
-  background-color: $bgSecondColor;
+  background-image: url("./../../assets/image/header.png");
   @media all and (max-width: 770px) {
     justify-content: center;
   }

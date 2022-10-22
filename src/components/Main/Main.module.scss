@@ -2,34 +2,80 @@
 
 .mainBlock {
   height: 100vh;
-  background-color: $bgColor;
+
+  background-size: cover;
+  background-image: url("./../../assets/image/mainBackground.png");
+  @media all and (max-width: 1254px) {
+    height: auto;
+  }
 
   .mainContainer {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    @media all and (max-width: 770px) {
+    padding: 0 100px;
+    @media all and (max-width: 1254px) {
       flex-direction: column;
       justify-content: center;
+      height: 100%;
+      padding: 50px 0;
     }
 
-    .mainBlockText {
-      width: 280px;
-      background-color: grey;
-      font-family: 'Work Sans', sans-serif;
-      @media all and (max-width: 770px) {
-        text-align: center;
+    .mainBlockPrintedText {
+      display: flex;
+      max-width: 400px;
+      font-family: 'Roboto Mono', monospace;
+      @media all and (max-width: 1254px) {
+        padding-bottom: 20px;
+        font-size: 70%;
       }
 
-      .mainBlockText span, .mainBlockText p {
-        text-transform: uppercase;
+      .title {
+        margin-bottom: 10px;
+        width: 22ch;
+        border-right: solid 2px white;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: flashing-border 0.5s step-end infinite,
+        printed-text 7s steps(22);
+      }
+
+      @keyframes flashing-border {
+        0% {
+          border-color: white;
+        }
+        50% {
+          border-color: transparent;
+        }
+        100% {
+          border-color: white;
+        }
+      }
+      @keyframes printed-text {
+        from {
+          width: 0;
+        }
+      }
+    }
+
+    .text {
+      @media all and (max-width: 1254px) {
+
+      }
+
+      h3 {
+        display: flex;
+        @media all and (max-width: 1254px) {
+          width: 280px;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
       }
     }
 
     .mainBlockPhoto {
       width: 280px;
       height: 400px;
-      background-color: maroon;
+      border: solid white 1px;
     }
   }
 }

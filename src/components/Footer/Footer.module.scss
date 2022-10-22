@@ -3,7 +3,10 @@
 
 .footerBlock {
   height: auto;
-  background-color: $bgColor;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  background-image: url("./../../assets/image/header.png");
 
   .footerContainer {
     flex-direction: column;
@@ -12,14 +15,18 @@
     .items {
       @include flex(flex, space-between, center);
       width: 270px;
-      border: 1px solid;
       margin-bottom: 30px;
 
-      .icon {
-        height: 40px;
-        width: 40px;
-        background-color: #a66b9b;
-        border: 1px solid;
+      .link {
+        text-decoration: inherit;
+
+        .icon {
+          height: 40px;
+          width: 40px;
+          background-size: cover;
+          background-position: center;
+          border-radius: 50%;
+        }
       }
     }
   }

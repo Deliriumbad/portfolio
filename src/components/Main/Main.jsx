@@ -5,14 +5,17 @@ import sContainer from '../../common/styles/Container.module.css';
 export const Main = () => {
     return (
         <div className={s.mainBlock}>
-            <div className={`${sContainer.container} ${s.mainContainer}`}>
-                <div className={s.mainBlockText}>
-                    <span>Hi There!</span>
-                    <h1>I am Vitali Valadzko</h1>
-                    <p>A frontend developer</p>
+            <div className={`${sContainer.container} ${s.mainContainer}`} >
+                <div>
+                    <div className={s.mainBlockPrintedText}>
+                        <h1 className={s.title}>I am Vitali Valadzko </h1>
+                    </div>
+                    <div className={s.text}>
+                        <h3>A frontend developer</h3>
+                    </div>
                 </div>
                 <div className={s.mainBlockPhoto}>
-photo
+                    photo
                 </div>
             </div>
         </div>
