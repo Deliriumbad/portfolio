@@ -42,7 +42,7 @@ export const Portfolio = () => {
                              description={'Lorem ipsum  consectetuer adipiscing elit. Aenean commodo ligula eget dolor.'}/>
                     <Project title={'Friday project'}
                              image={fridayProject}
-                             description={'Lorem ipsum dolor s'}/>
+                             description={'In progres...'}/>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@
     justify-content: flex-start;
 
     .form {
-      width: 50%;
+      width: 350px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -35,21 +35,20 @@
         padding: 5px 15px;
         border-radius: 5px;
         border: 1px solid black;
-        box-shadow: 0 0 40px 40px #8a2be2 inset, 0 0 0 0 #8a2be2;
-        font-family: 'Montserrat', sans-serif;
+        box-shadow: 0 0 40px 40px #414041 inset, 0 0 0 0 #edeaf1;
         font-weight: bold;
         letter-spacing: 1px;
         color: white;
         transition: .15s ease-in-out;
         max-width: 100px;
-        margin-bottom: 30px;
+        margin: 10px 0 40px 0;
 
         &:hover {
-          box-shadow: 0 0 10px 0 #8a2be2 inset, 0 0 10px 4px #8a2be2;
-          color: black;
+          box-shadow: 0 0 10px 0 #f2eef5 inset, 0 0 10px 4px #ebe7ef;
+          color: #aba3a3;
           transition: .5s;
           cursor: pointer;
-          border: 1px solid #8a2be2;
+          border: 1px solid #aba3a3;
         }
       }
     }

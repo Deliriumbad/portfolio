@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 
     .portfolio {
       @include flex(flex, space-between, flex-start);
