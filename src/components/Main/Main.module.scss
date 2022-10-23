@@ -22,7 +22,6 @@
     .mainBlockPrintedText {
       display: flex;
       max-width: 420px;
-      font-family: 'Roboto Mono', monospace;
       @media all and (max-width: 1254px) {
         font-size: 70%;
       }
@@ -63,7 +62,7 @@
       h3 {
         display: flex;
         @media all and (max-width: 1254px) {
-          width: 297px;
+          width: 296px;
           justify-content: center;
           margin-bottom: 20px;
         }

@@ -8,14 +8,14 @@ export const Main = () => {
             <div className={`${sContainer.container} ${s.mainContainer}`} >
                 <div>
                     <div className={s.mainBlockPrintedText}>
-                        <h1 className={s.title}>I am Vitali Valadzko </h1>
+                        <h1 className={s.title}>I am Vitali Valadzko</h1>
                     </div>
                     <div className={s.text}>
                         <h3>A frontend developer</h3>
                     </div>
                 </div>
                 <div className={s.mainBlockPhoto}>
-                    photo
+
                 </div>
             </div>
         </div>
