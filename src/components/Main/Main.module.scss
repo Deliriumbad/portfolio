@@ -21,10 +21,9 @@
 
     .mainBlockPrintedText {
       display: flex;
-      max-width: 400px;
+      max-width: 420px;
       font-family: 'Roboto Mono', monospace;
       @media all and (max-width: 1254px) {
-        padding-bottom: 20px;
         font-size: 70%;
       }
 
@@ -35,7 +34,7 @@
         white-space: nowrap;
         overflow: hidden;
         animation: flashing-border 0.5s step-end infinite,
-        printed-text 7s steps(22);
+        printed-text 4s steps(22);
       }
 
       @keyframes flashing-border {
@@ -64,7 +63,7 @@
       h3 {
         display: flex;
         @media all and (max-width: 1254px) {
-          width: 280px;
+          width: 297px;
           justify-content: center;
           margin-bottom: 20px;
         }
