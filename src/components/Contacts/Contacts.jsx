@@ -7,13 +7,27 @@ export const Contacts = () => {
     return (
         <div className={s.contactBlock}>
             <div className={`${sContainer.container} ${s.contactContainer}`}>
-                <Title text = {'Contacts'}/>
-                <form className={s.form}>
-                    <input type={'text'} className={s.input} placeholder={'Your Name'}/>
-                    <input type={'number'} className={s.input} placeholder={'Your telephone'}/>
-                    <input type={'email'} className={s.input} placeholder={'Your email'}/>
-                    <textarea className={s.textarea} placeholder={'Message'} rows="4"/>
-                    <button type="submit" className={s.button}>Submit</button>
+                <Title text={'Contacts'}/>
+                <form>
+                    <div className={s.row}>
+                        <div className={s.inputGroup}>
+                            <input type={'text'} required/>
+                            <label for={'name'}>Your Name</label>
+                        </div>
+                        <div className={s.inputGroup}>
+                            <input type={'text'} required/>
+                            <label for='number'>Phone No.</label>
+                        </div>
+                    </div>
+                    <div className={s.inputGroup}>
+                        <input type={'email'} required/>
+                        <label for='email'>Email Id</label>
+                    </div>
+                    <div className={s.inputGroup}>
+                        <textarea rows='8' required></textarea>
+                        <label for='message'>Message</label>
+                    </div>
+                    <button type={'submit'}>SUBMIT</button>
                 </form>
             </div>
         </div>
