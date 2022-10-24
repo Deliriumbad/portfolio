@@ -27,7 +27,9 @@ export const Contacts = () => {
                         <textarea rows='8' required></textarea>
                         <label for='message'>Message</label>
                     </div>
-                    <button type={'submit'}>SUBMIT</button>
+                    <div className={s.buttonStyle}>
+                        <button type={'submit'}>SUBMIT</button>
+                    </div>
                 </form>
             </div>
         </div>
