@@ -22,7 +22,6 @@ export const Footer = () => {
                         <FaTwitter className={s.icon}/>
                     </a>
                 </div>
-
             </div>
         </div>
     );
