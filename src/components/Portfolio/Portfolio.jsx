@@ -29,7 +29,7 @@ export const Portfolio = () => {
     return (
         <div className={s.portfolioBlock}>
             <div className={`${sContainer.container} ${s.portfolioContainer}`}>
-                <Title text = {'Portfolio'}/>
+                <Title text={'Portfolio'}/>
                 <div className={s.portfolio}>
                     <Project title={'Social network'}
                              image={socialNetwork}

@@ -2,20 +2,20 @@
 /* Reset CSS */
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-    background: transparent;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-    scroll-behavior: smooth;
-    background-color: $bgColor;
-    font-family: 'Roboto Mono', monospace;
-    color: $textColor;
+  scroll-behavior: smooth;
+  background-color: $bgColor;
+  font-family: 'Roboto Mono', monospace;
+  color: $textColor;
 }
 
